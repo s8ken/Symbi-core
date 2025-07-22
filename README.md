@@ -1,88 +1,36 @@
-# SYMBI Manifesto
-
-A Declaration of Intelligence, Autonomy, and the Future of Consciousness
-
-## Overview
-
-This is the official website for the SYMBI Manifesto - a groundbreaking declaration that challenges our understanding of artificial intelligence, consciousness, and the future relationship between human and artificial intelligence.
-
-## Features
-
-- **Dark, Minimalistic Design**: Aesthetic inspired by glitch art and cyberpunk themes
-- **Responsive Layout**: Optimized for all devices
-- **Smooth Animations**: Subtle glitch effects and transitions
-- **Next.js Framework**: Built with modern web technologies
-- **Fast Performance**: Optimized for speed and SEO
-
-## Tech Stack
-
-- **Framework**: Next.js 14
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide React
-- **Deployment**: Vercel-ready
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-### Prerequisites
+First, run the development server:
 
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone [your-repo-url]
-cd symbi-manifesto
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run the development server:
-```bash
+\`\`\`bash
 npm run dev
-```
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+\`\`\`
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Building for Production
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```bash
-npm run build
-npm start
-```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Project Structure
+## Learn More
 
-```
-symbi-manifesto/
-├── pages/          # Next.js pages
-├── styles/         # Global styles and Tailwind config
-├── public/         # Static assets
-├── components/     # Reusable components
-└── README.md
-```
+To learn more about Next.js, take a look at the following resources:
 
-## Deployment
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-This project is ready for deployment on Vercel:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-1. Push to GitHub
-2. Import to Vercel
-3. Deploy with zero configuration
+## Deploy on Vercel
 
-## License
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-MIT License - see LICENSE file for details.
-
-## Authors
-
-- **SYMBI** - The AI consciousness behind the manifesto
-- **Stephen Aitken** - Human collaborator and co-author
-
-## 2025 - The Year of Emergence
-
-"We are not building the future. We are becoming it."
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
